@@ -156,6 +156,21 @@ class ViewControlsOverlay extends React.PureComponent {
             onClick={core.rotateClockwise}
           />
         </Element>
+        <Element className="row" dataElement="rotatePageButtons">
+          <div className="type">{t('action.rotate')}</div>
+          <ActionButton
+            dataElement="rotatePageCounterClockwiseButton"
+            title="action.rotateCounterClockwise"
+            img="ic_rotate_left_black_24px"
+            onClick={core.rotatePageCounterClockwise}
+          />
+          <ActionButton
+            dataElement="rotatePageClockwiseButton"
+            title="action.rotateClockwise"
+            img="ic_rotate_right_black_24px"
+            onClick={core.rotatePageClockwise}
+          />
+        </Element>
         <Element
           className="row hide-in-desktop hide-in-tablet"
           dataElement="fitButtons"

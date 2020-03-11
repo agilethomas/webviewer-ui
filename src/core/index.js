@@ -5,6 +5,8 @@ import setDisplayMode from './setDisplayMode';
 import getDisplayMode from './getDisplayMode';
 import rotateClockwise from './rotateClockwise';
 import rotateCounterClockwise from './rotateCounterClockwise';
+import rotatePageClockwise from './rotatePageClockwise';
+import rotatePageCounterClockwise from './rotatePageCounterClockwise';
 import rotatePages from './rotatePages';
 import movePages from './movePages';
 import removePages from './removePages';
@@ -118,6 +120,8 @@ export default {
   getDisplayMode,
   rotateClockwise,
   rotateCounterClockwise,
+  rotatePageClockwise,
+  rotatePageCounterClockwise,
   rotatePages,
   movePages,
   removePages,
